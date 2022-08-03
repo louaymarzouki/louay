@@ -1,0 +1,180 @@
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        third.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git commit -m"adding third.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'louay@LAPTOP-52O64PRL.(none)')
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config --global user.name "louay"
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git commit -m"adding third.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'louay@LAPTOP-52O64PRL.(none)')
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config --global user.email "louay"
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config --global user.email ""
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config--global user.louaymarzouki@gmail.com
+git: 'config--global' is not a git command. See 'git --help'.
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config --global user.email "louaymarzouki5@gmail.com
+> git config --global user.email "louaymarzouki5@gmail.com"
+> git config --global user.name  "louaymarzouki"
+> ^C
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config --global user.email "louaymarzouki5@gmail.com"
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config --global user.name "louaymarzouki"
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git comit -m "adding third.txt.tx"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ ^C
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ ^C
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ ^C
+
+
+
+
+
+
+
+
+
+
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ ^C
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ ls^C
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git commit -m "adding third.txt.tx"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        third.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$
+Display all 4757 possibilities? (y or n)^C
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git add fourth.txt
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git commit -m"adding fourth.txt.
+> git commit -"adding fourth.txt
+[master (root-commit) 1f9d87d] adding fourth.txt. git commit -adding
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fourth.txt
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git add .
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git commit -m"removing third.txt".
+On branch master
+nothing to commit, working tree clean
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git commit -m"removing third.txt
+>
+> git log
+> ^C
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config --global core.pager 'cat'
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=louaymarzouki
+user.email=louaymarzouki5@gmail.com
+core.pager=cat
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+louay@LAPTOP-52O64PRL MINGW64 ~/Desktop/learn_git (master)
+$
